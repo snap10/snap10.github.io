@@ -1,0 +1,26 @@
+/* Layout */
+
+body {
+    font-family: 'Anton', sans-serif;
+    background:#FFFFFF;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+.center {
+    display:block;
+    padding: 10px;
+}
+
+#main-content {
+
+    padding-top: 2rem;
+}
+
+#soc {
+	padding-top:2rem;
+}
+
+#name {
+    font-size: 16pt
+}
