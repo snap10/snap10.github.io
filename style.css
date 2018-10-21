@@ -29,6 +29,12 @@ body {
 .layer{
     margin:3rem;
 }
+@media screen and (max-width: 600px){
+    .layer{
+        margin:0.5rem;
+    }
+}
+
 .icon{
     margin-top:1rem;
     margin-bottom: 1rem;
