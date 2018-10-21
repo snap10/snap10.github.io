@@ -1,26 +1,38 @@
 /* Layout */
 
 body {
+    margin-left:auto;
+    margin-right:auto;
     font-family: 'Anton', sans-serif;
     background:#FFFFFF;
-    margin-right:auto;
-    margin-left: auto;
+    max-width: 800px;
 }
 
-.center {
-    display:block;
-    padding: 10px;
+.flex{
+    display:flex;
+    flex-wrap:wrap;
+}
+.flex.center {
+    justify-content: center
 }
 
-#main-content {
-
-    padding-top: 2rem;
+.fullheight {
+    height: 100vh;
+}
+.center-text{
+    text-align: center;
 }
 
-#soc {
-	padding-top:2rem;
+.gitlab{
+    background-image: url("assets/gitlab-tile.svg");
 }
-
+.layer{
+    margin:3rem;
+}
+.icon{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
 #name {
     font-size: 16pt
 }
